@@ -8,7 +8,6 @@ Posts appear on a user's activity feed. This API endpoint should only be used fo
 
 <p class='info'><strong>Authentication types</strong>: OAuth User Token only</p>
 
-
     POST https://everydayhero.com/api/v2/posts
 
 ### Parameters
