@@ -6,7 +6,7 @@ There are three methods of authentication for the API:
 ### Registered Application Authentication
 
 This endpoint is used for all endpoints which aren't scoped via OAuth, this is mostly limited to a few team related API requests. The majority of API requests can be authenticated with OAuth User Authentication (see below). The API
-key for Registered App Auth is the key provided by EDH Professional Services, please email 
+key for Registered App Auth is provided by EDH Professional Services, please email 
 [api@everydayhero.com.au](mailto:api@everydayhero.com.au).
 
     $ curl -i -H "Authorization: Token token=your-token" https://everydayhero.com/api/v2
