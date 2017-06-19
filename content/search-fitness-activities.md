@@ -40,6 +40,16 @@ Include manually entered activities. Default: false.
 exclude_virtual : _optional_ **boolean**<br/>
 Exclude virtual activities. Default: false
 
+group_value : _optional_ **String/Array**<br/>
+Return pages matching specific page group value, or any of the provided array values.
+An Array of values can be provided, eg: group_value[]=QLD&group_value[]=ABC
+
+min_distance_in_meters : _optional_ **Integer**<br/>
+Returns pages that have achieved a specified distance value. This is a post-filter action that may reduce the result set lower than the limit.
+
+max_distance_in_meters : _optional_ **Integer**<br/>
+Returns pages that are under a specified distance value. This is a post-filter action that may reduce the result set lower than the limit.
+
 exclude_non_virtual : _optional_ **boolean**<br/>
 Exclude non-virtual activities. Default: false
 
@@ -51,6 +61,9 @@ Group results by pages or teams. Default: pages
 sort_by : _optional_ **string**<br/>
 Sort results by distance_in_meters, duration_in_seconds, elevation_in_meters or
 calories. Default: distance_in_meters
+
+limit : _optional_ **integer**<br/>
+Returns a specified number of records. Default: 200.
 
 
 ### Example
