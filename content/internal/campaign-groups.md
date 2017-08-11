@@ -87,7 +87,6 @@ Here there's an optional NEW_GROUP_VALUE_ID which can be used to associate pages
     DELETE /api/v2/internal/campaigns/CAMPAIGN_UID_OR_UUID/groups/GROUP_ID/group_values/GROUP_VALUE_ID?new_group_value_id=NEW_GROUP_VALUE_ID
     Authorization: Bearer APP_BEARER_TOKEN
 
-
 ## Assign unassigned/invalid pages to a group
 
 This request can be used to associate pages with no group value to the specified group value. This is useful if a group value has been deleted with no fallback, or if groups are added to a campaign after pages have been created.
