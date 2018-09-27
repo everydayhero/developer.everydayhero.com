@@ -153,8 +153,11 @@ Supported params available at <a href="/search-fitness-activities/">Fitness lead
 </code></pre>
 
 <h3 id="other-campaign-options">Other campaign options</h3>
-<p><code>disable_tracker_activities</code>
-Disables daily fitbit activities within a campaign. Manual and individual activities from fitbit will sync, but daily tracked activities will not sync.</p>
+<p><code>fitbit_summary_only</code>
+Boolean: when set to true, will import a summary of the number of steps and calories burned during the day (even if they were outside of any physical activity) instead of a list of physical activities. Default is false.</p>
+
+<p><code>page_embed_iframe</code>
+Hash with two keys: :url and :params. When attribute is set, the url is called with the associated params along with the page id.</p>
 
 <p><code>donation_trigger_thresholds</code>
 Donation raised thresholds in cents/pence. Defaults to: [2500, 5000, 10000, 20000, 50000, 100000, 250000, 500000]. Triggers will be sent at the specified threshold for behavioral emails.</p>
