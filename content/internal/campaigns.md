@@ -56,3 +56,11 @@ See example above, mi, km are supported.
 
 `skip_page_create_notification`
 Skips emailing the user after page creation.
+
+#####Change the Suggested Value Amounts for any campaign.
+
+`preset_donation_amounts`
+
+Example payload:
+
+	{"campaign":{"preset_donation_amounts":[25,50,100]}}
